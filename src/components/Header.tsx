@@ -3,13 +3,13 @@ import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/maple-leaf-logo.png";
 
 const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
-  { label: "Book Publishing", href: "#services" },
-  { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "Home", href: "/#home" },
+  { label: "About Us", href: "/#about" },
+  { label: "Book Publishing", href: "/#services" },
+  { label: "Services", href: "/#services" },
+  { label: "Portfolio", href: "/#portfolio" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Contact Us", href: "/#contact" },
 ];
 
 export function Header() {
@@ -21,7 +21,7 @@ export function Header() {
         <div className="flex items-center justify-between h-20 px-4 md:px-8">
 
           {/* Logo + Text */}
-          <a href="#home" className="flex items-center gap-2">
+          <a href="/#home" className="flex items-center gap-2">
             <img
               src={logo}
               alt="Maple Leaf Publisher"

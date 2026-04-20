@@ -2,12 +2,12 @@ import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from "luc
 import logo from "@/assets/maple-leaf-logo.png";
 
 const quickLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "Home", href: "/#home" },
+  { label: "About Us", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "Portfolio", href: "/#portfolio" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Contact Us", href: "/#contact" },
 ];
 
 const services = [
@@ -124,12 +124,9 @@ export function Footer() {
               © {new Date().getFullYear()} Maple Leaf Publishers. All Rights Reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-autumn-cream/50 hover:text-primary transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-autumn-cream/50 hover:text-primary transition-colors">
-                Terms of Service
-              </a>
+              <a href="/privacy-policy" className="text-autumn-cream/50 hover:text-primary transition-colors">
+  Privacy Policy
+</a>
             </div>
           </div>
         </div>
