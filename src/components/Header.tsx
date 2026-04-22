@@ -27,9 +27,6 @@ export function Header() {
               alt="Maple Leaf Publisher"
               className="h-12 md:h-16 w-auto object-contain"
             />
-            <span className="text-sm md:text-base font-semibold text-foreground whitespace-nowrap">
-              Maple Leaf Publisher
-            </span>
           </a>
 
           {/* Desktop Navigation */}
